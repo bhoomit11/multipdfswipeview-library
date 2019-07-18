@@ -14,4 +14,4 @@ Step 2. Add the dependency
   
     dependencies {
       implementation 'com.github.bhoomit11:multipdfswipeview-library:0.1.1'
-	  } 
+    } 
