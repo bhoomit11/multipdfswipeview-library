@@ -57,7 +57,7 @@ public class PDFMultiSwipeView extends LinearLayout {
 
     private void checkLocalFiles(ArrayList<PDFConfig> configList) {
         for (int i = 0; i < configList.size(); i++) {
-            String fileName = "PDF" + configList.get(i).getName() + "_" + configList.get(i).getId();
+            String fileName = "PDF_" + configList.get(i).getName() + "_" + configList.get(i).getId();
             File file = new File(getContext().getCacheDir(), fileName);
 
             if (file.exists()) {
