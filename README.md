@@ -48,7 +48,7 @@ for online and local PDF file
     
 for assets PDF file
 
-private val pdfConfigs = ArrayList<PDFConfig>()
+    private val pdfConfigs = ArrayList<PDFConfig>()
     
     // You can add multiple PDF like this
     var config = PDFConfig()
