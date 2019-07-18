@@ -37,9 +37,8 @@ class MainActivity : AppCompatActivity() {
         config.pdfUrl = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
         pdfConfigs.add(config)
 
-        val pdfView:PDFMultiSwipeView = findViewById(R.id.pdfView)
+        val pdfView: PDFMultiSwipeView = findViewById(R.id.pdfView)
 
-        pdfView.with(this)
-            .build(pdfConfigs, PDFMultiSwipeView.TYPE_ONLINE)
+        pdfView.with(this).build(pdfConfigs, PDFMultiSwipeView.TYPE_ONLINE)
     }
 }
