@@ -1,8 +1,18 @@
 # multipdfswipeview-library
 A simple library to show multiple PDF in swipable layout
 
-Add the dependency
+
+Step 1. Add the dependency
+
+    allprojects {
+      repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+      }
+    }
   
+Step 2 Add it in your root build.gradle at the end of repositories:
+
     dependencies {
       implementation 'com.example.multipdfswipelayout:multipdfswipeview:0.1.1'
     } 
